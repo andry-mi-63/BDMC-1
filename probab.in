@@ -1,0 +1,13 @@
+0.27d0    !  1    ShiftVortTime    dpro(1
+0.16d0    !  1    ShiftVortexSite      (2
+0.02d0    !  2    ADD-REMOVE-PHO       (3, 4
+0.03d0    !  2    ADD-REMOVE-WORM      (5, 6 
+0.03d0    !  1    Commute              (7
+0.03d0    !  1    MoveMeasLine         (8
+0.01d0    !  1    FlipSpins            (9
+0.03d0    !  1    MoveVorms            (10
+0.05d0    !  2    ADD-REMOVE_DIA_PHO   (11,12
+0.07d0    !  1    CommuteInt           (13
+0.05d0    !  2    ADD-REMOVE DIA_PHO_EXP (14,15   
+0.05d0    !  2    ADD-REMOVE SHORT PHNONS (16,17
+   

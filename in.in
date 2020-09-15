@@ -1,0 +1,32 @@
+0                        !0/1 if notuse/use previous statistics
+0                        !0/1 if notuse/use previous configuration
+1.0d0 1.0d0            !DivideStat 
+1.0d0 0.5d0              !hopping,Debye
+0.45d0 0 1.0d0                     !lambda and i_type 0-Holstein, 1-Frohlich 
+3.84d-3 1.0d2                     !WeigtOfWorm
+100.0d0 -0.40d0                  !InverseT and mu
+1024                      !NumberOfTauPoints
+128 128  1                   !SizesOfBoxOfSystem
+4 4                        !Max NumbVort,NumbVortToMeasure
+2 4                      !Dimensio&NearNeighborsNumber
+20000000                   !Prints aftrer "_limit" updates
+20000000  2              !Writes aftrer "_limit" updates
+10                !Measures aftrer "_limit" updates
+.TRUE.                   !To measure or not
+900107                   !RandomNumberSeed
+.FALSE.                   !MakeSevereCheckIf TRUE !Slows down code
+-1.0d0                   !For self consistency loop
+.FALSE.                   !Torenormalize phonons
+100 6                      Nbins_s,Nbasis_s for sigma
+3 3                       Nbins_p,Nbasis_p for polar
+16 8                      Nbins_OC, Nbasis_OC for OC 
+.FALSE.                    TRUE if spin polarized     
+1.0 2.0 10.0      meas_Debye, meas_V_kvadrat, meas_Decay   
+0.1d0 1.0d0       scale min/max for phonon generation  
+2.0               u_limit for short phonons
+60 0.1 .false. 1    oc_exa number of points, window, whether to calculate
+120 0.4 .false.     oc_exa ANOTHER, numOfPoint, scalik, whether to calculate
+1.0d+10 1.0d10          what to inpute for higher orders   
+
+
+128 128 1 
